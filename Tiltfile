@@ -46,6 +46,7 @@ k8s_resource("postgresql", port_forwards="5432:5432", labels=["infrastructure"])
 
 services = [
     "frontend",
+    "backend",
 ]
 
 for service in services:
