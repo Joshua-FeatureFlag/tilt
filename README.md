@@ -22,13 +22,14 @@ ctlptl apply -f cluster.yaml
 - Ensure you have the repos from the git organization (Joshua-FeatureFlag) cloned alongside this repository
 
   - Your structure should look like this
-
+```
     Development / Work / Etc./
     ├─ tilt/
-    │ ├─ Tiltfile
+    │  ├─ Tiltfile
     ├─ frontend/
-    │ ├─ Tiltfile
+    │  ├─ Tiltfile
     ... etc
+```
 
 start tilt
 
